@@ -1,0 +1,41 @@
+/* Signup.css */
+
+.signup-container {
+    height: 100vh;
+    background-image: url('https://images.creativemarket.com/0.1.0/ps/7353029/1820/1213/m1/fpnw/wm1/kiwikc0o9yejexpzwzylxsuy30gsti4hjy5uo9ctmct07xumbwzebvxnoipkfdqc-.jpg?1574572852&s=e825fe743ce9f7c0252aac0e13870e92');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+.d-flex.shadow.p-5 {
+    width: 90%; /* Set a percentage width to make it responsive */
+    max-width: 600px; /* Maximum width for larger screens */
+    padding: 20px; /* Add padding */
+  }
+  
+  .mb-3 {
+    width: 100%; /* Make input fields fill the entire width */
+    margin-bottom: 20px; /* Add margin between input fields */
+  }
+  @media (max-width: 767px) {
+    .d-flex.shadow.p-5.bg-secondary {
+      width: calc(100% - 40px); /* Adjust width for smaller screens */
+    }
+  
+    /* .mb-3 {
+      max-width: calc(100% - 20px); /* Adjust max-width for input fields */
+      .mb-3 {
+        width: 100%; /* Make input fields fill the entire width */
+        margin-bottom: 20px; /* Add margin between input fields */
+      }
+    .mb-3 .form-control {
+        width: 100%; /* Make input fields fill the entire width */
+      }
+  }
+  
+   
+  
+    

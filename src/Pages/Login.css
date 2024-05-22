@@ -1,0 +1,37 @@
+/* Login.css */
+
+.login-container {
+    height: 100vh;
+    background-image: url('https://www.aristonspecialties.com/wp-content/uploads/2024/01/12.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-Content: left;
+    align-Items: center;
+    padding:"200px";
+  }
+  
+  .login-content {
+   margin-left: 100px;
+    max-width: 600px; /* Max width for the login content */
+    width: 90%; /* Set width to a percentage for responsiveness */
+    background-color: #fff; /* Set background color for the login form */
+    padding: 30px; /* Add padding for better appearance */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+  }
+  
+  @media (max-width: 768px) {
+   
+    .login-content {
+        margin: 20px;
+      padding: 20px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .login-content {
+      width: 100%; /* Set width to 100% for smaller screens */
+    }
+  }
+  

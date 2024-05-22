@@ -1,0 +1,33 @@
+/* Cart.css */
+.cart-container {
+    background-image: url('https://th.bing.com/th/id/R.d22ec05f6f36f6332f7f42aee6c6fe79?rik=9tQCcuaWG6BaGA&riu=http%3a%2f%2fthehouseofscales.com.au%2fwp-content%2fuploads%2f2018%2f05%2ftransparent-background.png&ehk=6jahbvAQvjDN2nUkaH9HgHOZcaqB5muHfsipHU0uMkI%3d&risl=1&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    
+    height: 700px; 
+    
+    display: flex;
+    justify-content: start;
+    align-items:start;
+  }
+  
+  .cart-content {
+    width: 100%;
+    max-width: 900px;
+    margin: 100px; /* Adjust as needed */
+  }
+  
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .cart-container {
+      padding-right: 0px;
+   
+  
+    }
+  
+    .cart-content {
+      padding: 0px;
+      margin: 0%; /* Add some padding to the content */
+    }
+  }
+  

@@ -1,0 +1,98 @@
+/* /* CSS
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+@media (min-width: 992px) {
+    .carousel-item img {
+      height: 90vh; /* Set desired height for images on laptop screens */
+    /* }
+  }
+  /* Default styles for the card */
+/* Default styles for the card */
+/*.card {
+  width:450px;
+   width: calc(33.33% - 20px); Adjust the width based on the number of cards per row 
+  margin: 10px; /* Add margin to create space between cards */
+  /* display: inline-block; /* Display cards in a row */
+  /* vertical-align: top; /* Align cards to the top of the row */
+ 
+
+/* Style for the image inside the card */
+/* .card img {
+  width: 100%; /* Make the image fill the entire width of the card */
+  /* height: auto; 
+  display: block; 
+}  */
+/* .card-hover {
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.card-hover:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+} */ */
+
+
+/* Media query for responsiveness */
+/* @media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+    padding: 0%;
+     /* Adjust the width for smaller screens */
+  /* }
+}
+@media screen and (max-width: 576px) {
+  .card {
+    width:"18rem" */
+    
+  
+    /* Adjust the width for even smaller screens */
+  /* }
+}
+
+.container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container h3, .container h4 {
+  margin-top: 20px;
+}  */
+/* 
+@media (max-width: 768px) {
+  .container {
+    margin-top: 50px;
+  }
+  
+  .container img {
+    max-height: 300px;
+  }
+}
+body {
+  overflow-x: hidden; /* Prevent horizontal overflow
+
+
+  .carousel-item img {
+    object-fit: cover;
+    height: 60vh;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 40px;
+    }
+    .carousel-item img {
+        height: 40vh;
+    }
+}
+
+.container-fluid .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+@media (max-width: 576px) {
+    .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
