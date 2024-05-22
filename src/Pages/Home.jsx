@@ -86,7 +86,7 @@ function Home() {
 
     const loadData = async () => {
         try {
-            // const response = await fetch("http://localhost:5001/api/foodData", {
+              //const response = await fetch("http://localhost:5001/api/foodData", {
                 const response = await fetch("https://food-cart-mern-server-5.onrender.com/api/foodData", {
                 method: "POST",
                 headers: {

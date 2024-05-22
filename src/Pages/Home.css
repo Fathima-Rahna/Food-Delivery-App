@@ -4,6 +4,8 @@
 @media (min-width: 992px) {
     .carousel-item img {
       height: 90vh; /* Set desired height for images on laptop screens */
+    }
+  }
     /* }
   }
   /* Default styles for the card */
@@ -29,7 +31,7 @@
 .card-hover:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
-} */ */
+} */ 
 
 
 /* Media query for responsiveness */
