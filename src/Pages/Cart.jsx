@@ -57,7 +57,7 @@ function Cart() {
 
   const handleCheckout = async () => {
     let userEmail = localStorage.getItem("userEmail");
-    let response = await fetch("https://food-cart-mern-server-5.onrender.com/api/orderData", {
+    let response = await fetch("https://food-cart-mern-server-6.onrender.com/api/orderData", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json'

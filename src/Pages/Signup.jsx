@@ -15,7 +15,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://food-cart-mern-server-5.onrender.com/api/createuser", {
+      const response = await fetch("https://food-cart-mern-server-7.onrender.com/api/createuser", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

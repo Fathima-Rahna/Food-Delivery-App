@@ -6,7 +6,7 @@ function MyOrders() {
 
   const fetchMyOrder = async () => {
     console.log(localStorage.getItem('userEmail'));
-    await fetch("https://food-cart-mern-server-5.onrender.com/api/myOrderData", {
+    await fetch("https://food-cart-mern-server-7.onrender.com/api/myOrderData", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

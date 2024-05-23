@@ -86,8 +86,8 @@ function Home() {
 
     const loadData = async () => {
         try {
-              //const response = await fetch("http://localhost:5001/api/foodData", {
-                const response = await fetch("https://food-cart-mern-server-5.onrender.com/api/foodData", {
+              const response = await fetch("https://food-cart-mern-server-7.onrender.com/api/foodData", {
+               // const response = await fetch("https://food-cart-mern-server-6.onrender.com/api/foodData", {
                 method: "POST",
                 headers: {
                     'Content-Type': 'application/json'
@@ -112,7 +112,49 @@ function Home() {
 
     
 
+// import React from 'react';
+// import Header from '../components/Header';
+// import Carousel from 'react-bootstrap/Carousel';
+// import { Form } from 'react-bootstrap';
+// import './Home.css';
+// import { useState, useEffect } from 'react';
+// import Cards from '../components/Cards';
+// import Footer from '../components/Footer';
 
+// const SERVER_URL = "https://food-cart-mern-server-6.onrender.com";
+
+// function Home() {
+//     const [search, setSearch] = useState('');
+//     const [foodItems, setFoodItems] = useState([]);
+//     const [foodCategory, setFoodCategory] = useState([]);
+//     const [error, setError] = useState(null);
+
+//     const loadData = async () => {
+//         try {
+//             const response = await fetch(`${SERVER_URL}/api/foodData`, {
+//                 method: "POST",
+//                 headers: {
+//                     'Content-Type': 'application/json'
+//                 }
+//             });
+//             if (!response.ok) {
+//                 throw new Error('Failed to fetch data');
+//             }
+//             const responseData = await response.json();
+//             console.log(responseData); // Log response data for debugging
+//             setFoodItems(responseData.foodItems);
+//             setFoodCategory(responseData.foodCategory);
+//         } catch (error) {
+//             console.error('Error fetching or setting data:', error);
+//             setError(error.message);
+//         }
+//     }
+
+//     useEffect(() => {
+//         loadData();
+//     }, []);
+
+  
 
 
     // const [foodCategory, setFoodCategory] = useState([]);
