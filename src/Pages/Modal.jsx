@@ -13,7 +13,7 @@ const MODAL_STYLES = {
   transform: 'translate(-50%, -50%)',
   zIndex: 1000,
   height: '80%',
-  width: '90%',
+  width: '100%',
   maxWidth: '900px', 
   maxHeight: '90%', 
 //   overflow: 'auto', 

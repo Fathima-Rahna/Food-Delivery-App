@@ -187,14 +187,14 @@ function Home() {
 
 
             <Carousel data-bs-theme="dark">
-                <Carousel.Item>
+                <Carousel.Item >
                     <img
                         className="d-block w-100"
                         src="https://images.creativemarket.com/0.1.0/ps/4833749/1820/1213/m1/fpnw/wm1/wbqwlmk8mlit5kyyjpb0oeujbpxl7cdhdsl5x2gpo2chgdpuw1ulo22kdnnhhl76-.jpg?1532958573&s=79f2b8451dbf2e4e01281e7c7cc641e5"
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h5 style={{ color: 'orange', fontSize: '60px' }}>Food in your Hand</h5>
+                        <h5 className="carousel-caption-title" style={{ color: 'orange', fontSize: '60px' }}>Food in your Hand</h5>
                         <div className="mx-auto" style={{ maxWidth: '500px' }}>
                             <Form className='d-flex justify-content-center '>
                                 <Form.Control style={{ width: '100%', height: '50px' }} type="text" placeholder="Search Products!!!" value={search} onChange={(e)=>{setSearch(e.target.value)}} />
@@ -212,7 +212,7 @@ function Home() {
                         alt="Second slide"
                     />
                     <Carousel.Caption>
-                        <h5 style={{ color: 'orange', fontSize: '60px' }}>Food in your Hand</h5>
+                        <h5 className="carousel-caption-title" style={{ color: 'orange', fontSize: '60px' }}>Food in your Hand</h5>
                         <div className="mx-auto" style={{ maxWidth: '500px' }}>
                             <Form>
                                 <Form.Control style={{ width: '100%', height: '50px' }} type="text" placeholder="Search Products!!!" />
@@ -227,7 +227,7 @@ function Home() {
                         alt="Third slide"
                     />
                     <Carousel.Caption>
-                        <h5 style={{ color: 'orange', fontSize: '60px' }}>Food in your Hand</h5>
+                        <h5 className="carousel-caption-title" style={{ color: 'orange', fontSize: '60px' }}>Food in your Hand</h5>
                         <div className="mx-auto" style={{ maxWidth: '500px' }}>
                             <Form>
                                 <Form.Control style={{ width: '100%', height: '50px' }} type="text" placeholder="Search Products!!!" />

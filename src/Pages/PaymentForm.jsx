@@ -299,19 +299,19 @@ useEffect(() => {
   return (
     <form className='' onSubmit={handleSubmit}>
       <h4 className='ms-4 mt-2' style={{color:'yellow'}}>Total Price: ${totalPrice}</h4>
-      <div className="mb-3 w-75 ms-4">
+      <div className=" w-75 ms-4">
         <label style={{color:'white'}} htmlFor="street" className="form-label">Street</label>
         <input type="text" className="form-control" id="street" name="street" value={address.street} onChange={handleChange} />
       </div>
-      <div className="mb-3 w-75 ms-4">
+      <div className=" w-75 ms-4">
         <label style={{color:'white'}} htmlFor="city" className="form-label">City</label>
         <input type="text" className="form-control" id="city" name="city" value={address.city} onChange={handleChange} />
       </div>
-      <div className="mb-3 w-75 ms-4">
+      <div className=" w-75 ms-4">
         <label style={{color:'white'}} htmlFor="state" className="form-label">State</label>
         <input type="text" className="form-control" id="state" name="state" value={address.state} onChange={handleChange} />
       </div>
-      <div className="mb-3 w-75 ms-4">
+      <div className=" w-75 ms-4">
         <label style={{color:'white'}} htmlFor="zipcode" className="form-label">Zip Code</label>
         <input type="text" className="form-control" id="zipcode" name="zipcode" value={address.zipcode} onChange={handleChange} />
       </div>
