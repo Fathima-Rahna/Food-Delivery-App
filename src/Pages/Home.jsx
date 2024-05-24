@@ -188,7 +188,7 @@ function Home() {
 
             <Carousel data-bs-theme="dark">
                 <Carousel.Item >
-                    <img style={{height:"900px"}}
+                    <img style={{height:"700px"}}
                         className="d-block w-100"
                         src="https://images.creativemarket.com/0.1.0/ps/4833749/1820/1213/m1/fpnw/wm1/wbqwlmk8mlit5kyyjpb0oeujbpxl7cdhdsl5x2gpo2chgdpuw1ulo22kdnnhhl76-.jpg?1532958573&s=79f2b8451dbf2e4e01281e7c7cc641e5"
                         alt="First slide"
@@ -206,7 +206,7 @@ function Home() {
 
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <img style={{height:"700px"}}
                         className="d-block w-100"
                         src="https://wallpapercave.com/wp/wp7524939.jpg"
                         alt="Second slide"
@@ -221,7 +221,7 @@ function Home() {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
+                    <img style={{height:"700px"}}
                         className="d-block w-100"
                         src="https://i.pinimg.com/originals/85/28/ff/8528ff626ab682222092a855472d7df3.jpg"
                         alt="Third slide"
